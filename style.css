@@ -14,11 +14,11 @@ html, body {
     font-size: 30px;
 }
 
-/* Jumbotron */
+/* jumbotron */
 .jumbotron {
     background-image: url(img/jumbotron-bg.jpg);
     background-size: cover;
-    height: 575px;
+    height: 590px;
     text-align: center;
     position: relative;
 }
@@ -49,6 +49,7 @@ html, body {
 
 /* About Us */
 .aboutus {
+    padding: 50px;
     margin-top: 100px;
     text-align: center;
 }
@@ -62,7 +63,7 @@ html, body {
 
 .aboutus p {
     font-size: 18px;
-    color: #999999;
+    color: #222;
     font-weight: 200;
     margin: 30px 0;
 }
@@ -162,13 +163,28 @@ html, body {
 /* Siapa Kami? */
 .siapakami {
     background-color: #cccccc;
-    padding: 100px;
+    padding: 120px;
+    text-align: center;
+}
+
+.siapakami h3 {
+    font-size: 30px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.siapakami p {
+    font-size: 18px;
+    color: #222;
+    font-weight: 200;
+    margin: 30px 0;
 }
 
 /* Kontak */
 .kontak {
     background-color: #cccccc;
     padding: 100px;
+    margin-top: 100px;
 }
 
 .kontak a {
@@ -176,25 +192,25 @@ html, body {
     text-decoration: none;
 }
 
-/* Portfolio1 */
-.portfolio1 {
-    padding: 100px;
+/* Keuntungan */
+.keuntungan {
+    margin-top: 80px;
+    text-align: center;
 }
 
-.portfolio1 h3 {
-    font-size: 40px;
+.keuntungan h3 {
+    font-size: 30px;
     font-weight: 200;
     text-transform: uppercase;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
-.portfolio1 p {
+.keuntungan p {
     font-size: 18px;
-    color: #999999;
+    color: #222;
     font-weight: 200;
     margin: 30px 0;
 }
-
 
 /* Lainnya */
 .tombol {
@@ -314,7 +330,7 @@ html, body {
 
     .jumbotron {
         margin-top: -75px;
-        height: 640px;
+        height: 675px;
     }
 
     .jumbotron .display-4 {
@@ -328,6 +344,16 @@ html, body {
     .aboutus h3 {
         font-size: 50px;
     }
+
+    .keuntungan {
+        text-align: left;
+    }
+
+
+    .keuntungan h3 {
+        font-size: 50px;
+    }
+
     .logodiakad {
         width: 300px;
         height: 300px;
