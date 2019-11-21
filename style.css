@@ -1,0 +1,340 @@
+/* Html */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+.navbar-brand {
+    font-family: Helvetica;
+    font-size: 30px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img/jumbotron-bg.jpg);
+    background-size: cover;
+    height: 575px;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron .display-4 {
+    font-size: 30px;
+    color: white;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    margin-top: 140px;
+    margin-bottom: 30px;
+}
+
+/* About Us */
+.aboutus {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.aboutus h3 {
+    font-size: 30px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.aboutus p {
+    font-size: 18px;
+    color: #999999;
+    font-weight: 200;
+    margin: 30px 0;
+}
+
+/* Service */
+.service {
+    margin-top: 100px;
+    background-color: #cccccc;
+    padding: 100px;
+}
+
+.service h3 {
+    font-size: 30px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.service p {
+    font-size: 18px;
+    color: #222;
+    font-weight: 200;
+    margin: 10px 0;
+}
+
+/* Design */
+.design {
+    margin-top: 50px;
+    padding: auto;
+}
+
+.design h3 {
+    font-size: 30px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.design p {
+    font-size: 18px;
+    color: #222;
+    font-weight: 200;
+    margin: 10px 0;
+}
+
+/* Design 2 */
+.design2 {
+    padding: auto;
+}
+
+.design2 h3 {
+    font-size: 30px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.design2 p {
+    font-size: 18px;
+    color: #222;
+    font-weight: 200;
+    margin: 10px 0;
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    background-color: #cccccc;
+    padding: 100px;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.footer h3 {
+    color: #222;
+    text-align: center;
+}
+
+.footer2 {
+    background-color: #222;
+    padding: 15px;
+}
+
+.footer2 p {
+    font-size: 12px;
+    color: #ACACAC;
+    text-align: center;
+}
+
+/* Siapa Kami? */
+.siapakami {
+    background-color: #cccccc;
+    padding: 100px;
+}
+
+/* Kontak */
+.kontak {
+    background-color: #cccccc;
+    padding: 100px;
+}
+
+.kontak a {
+    color: #222;
+    text-decoration: none;
+}
+
+/* Portfolio1 */
+.portfolio1 {
+    padding: 100px;
+}
+
+.portfolio1 h3 {
+    font-size: 40px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.portfolio1 p {
+    font-size: 18px;
+    color: #999999;
+    font-weight: 200;
+    margin: 30px 0;
+}
+
+
+/* Lainnya */
+.tombol {
+    text-transform: uppercase;
+    color: white;
+}
+
+.tombol2 {
+    width: 200px;
+    height: 200px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 0;
+}
+
+.col-lg a {
+    padding-top: 85px;
+}
+
+.logodiakad {
+    width: 300px;
+    height: 300px;
+}
+
+.logodiakadcustom {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.logodiakadbrand {
+    width: 90px;
+    height: 30px;
+}
+
+/* Custom */
+.navbar-brand, .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+/** Selector **/
+::-webkit-scrollbar {
+    width:5px;
+    height:5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #222;
+}
+
+::selection {
+    background:#222;
+    color:#fff;
+}
+
+::-moz-selection{
+    background:#222;
+    color:#fff;
+}
+
+/* Versi Mobile */
+@media (max-width:768px) {
+    .navbar {
+        background-color:#343a40!important;
+    }
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        background-color:#343a40!important;
+    }
+    a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
+        background-color:#1d2124!important
+    }
+
+    .service {
+        padding:4rem 2rem
+    }
+}
+
+/* Versi Tablet */
+@media (max-width: 1000px) { 
+    .navbar {
+        background-color:#343a40!important;
+    }
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        background-color:#343a40!important;
+    }
+    a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
+        background-color:#1d2124!important
+    }
+}
+
+
+/* Versi Desktop */
+@media (min-width: 992px) { 
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 40px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #222222;
+        width: 20px;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        margin-top: -75px;
+        height: 640px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 60px;
+    }
+
+    .aboutus {
+        text-align: left;
+    }
+
+    .aboutus h3 {
+        font-size: 50px;
+    }
+    .logodiakad {
+        width: 300px;
+        height: 300px;
+    }
+
+    .dummy {
+        width: 300px;
+        height: 300px;
+    }
+}
