@@ -80,7 +80,7 @@ html, body {
 .service {
     margin-top: 100px;
     background-color: #cccccc;
-    padding: 100px;
+    padding: 50px;
 }
 
 .service h3 {
@@ -100,7 +100,7 @@ html, body {
 
 /* Design */
 .design {
-    margin-top: 50px;
+    margin-top: 100px;
     padding: auto;
 }
 
@@ -247,12 +247,6 @@ html, body {
     height: 300px;
 }
 
-.logodiakadcustom {
-    margin-bottom: 10px;
-    width: 200px;
-    height: 200px;
-}
-
 .logodiakadbrand {
     width: 90px;
     height: 30px;
@@ -331,7 +325,7 @@ html, body {
 
 
 /* Versi Desktop */
-@media (min-width: 992px) { 
+@media (min-width: 1000px) { 
     .navbar-brand, .nav-link {
         color: white !important;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
@@ -368,13 +362,8 @@ html, body {
         text-align: left;
     }
 
-    .logodiakad {
-        width: 300px;
-        height: 300px;
-    }
-
     .dummy {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
 }
