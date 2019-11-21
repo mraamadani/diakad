@@ -285,9 +285,9 @@ html, body {
 }
 
 /* Versi Mobile */
-@media (max-width:768px) {
+@media (max-width:575px) {
     .navbar {
-        background-color:#343a40!important;
+        background-color:#343a40;
     }
     .navbar-brand, .nav-link {
         color: white !important;
@@ -295,16 +295,12 @@ html, body {
         background-color:#343a40!important;
     }
     a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
-        background-color:#1d2124!important
-    }
-
-    .service {
-        padding:4rem 2rem
+        background-color:#1d2124!important;
     }
 }
 
-/* Versi Tablet */
-@media (max-width: 1000px) { 
+/* Versi Mobile 2 */
+@media (max-width: 768px) { 
     .navbar {
         background-color:#343a40!important;
     }
@@ -314,7 +310,22 @@ html, body {
         background-color:#343a40!important;
     }
     a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
-        background-color:#1d2124!important
+        background-color:#1d2124!important;
+    }
+}
+
+/* Versi Mobile Tablet */
+@media (max-width: 992px) { 
+    .navbar {
+        background-color:#343a40!important;
+    }
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        background-color:#343a40!important;
+    }
+    a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
+        background-color:#1d2124!important;
     }
 }
 
