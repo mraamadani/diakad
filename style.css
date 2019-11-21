@@ -49,7 +49,6 @@ html, body {
 
 /* About Us */
 .aboutus {
-    padding: 50px;
     margin-top: 100px;
     text-align: center;
 }
@@ -58,7 +57,7 @@ html, body {
     font-size: 30px;
     font-weight: 200;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .aboutus p {
@@ -66,6 +65,15 @@ html, body {
     color: #222;
     font-weight: 200;
     margin: 30px 0;
+}
+
+.aboutus a {
+    color: #2288bb;
+    text-decoration: none;
+}
+
+.aboutus a:hover {
+    color: #222;
 }
 
 /* Service */
@@ -163,7 +171,7 @@ html, body {
 /* Siapa Kami? */
 .siapakami {
     background-color: #cccccc;
-    padding: 120px;
+    padding: 100px;
     text-align: center;
 }
 
@@ -174,7 +182,7 @@ html, body {
 }
 
 .siapakami p {
-    font-size: 18px;
+    font-size: 20px;
     color: #222;
     font-weight: 200;
     margin: 30px 0;
@@ -192,9 +200,13 @@ html, body {
     text-decoration: none;
 }
 
+.kontak a:hover {
+    color: #2288bb;
+}
+
 /* Keuntungan */
 .keuntungan {
-    margin-top: 80px;
+    margin-top: 70px;
     text-align: center;
 }
 
@@ -202,11 +214,11 @@ html, body {
     font-size: 30px;
     font-weight: 200;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .keuntungan p {
-    font-size: 18px;
+    font-size: 20px;
     color: #222;
     font-weight: 200;
     margin: 30px 0;
@@ -341,17 +353,8 @@ html, body {
         text-align: left;
     }
 
-    .aboutus h3 {
-        font-size: 50px;
-    }
-
     .keuntungan {
         text-align: left;
-    }
-
-
-    .keuntungan h3 {
-        font-size: 50px;
     }
 
     .logodiakad {
